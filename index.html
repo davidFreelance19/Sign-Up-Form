@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <main class="main">
+    <div class="main__info container">
+      <h1 class="main__subtitle">Learn to code by watching others</h1>
+      <p class="main__text">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div class="main__form container">
+      <div class="main__subcription">
+        <p class="main__text"><span>Try it free days</span> then $20/mo. thereafter</p>
+      </div>
+
+      <form action="form" class="main__formulario">
+        <field class="main__field">
+          <div class="container__name main__helper">
+            <label for="name">First Name</label>
+          </div>
+          <input type="text" placeholder="Your first Name" id="name">
+        </field>
+        <field class="main__field">
+          <div class="container__apellido main__helper">
+            <label for="apellido">Last Name</label>
+          </div>
+          <input type="text" placeholder="Your Last Name" id="apellido">
+        </field>
+        <field class="main__field">
+          <div class="container__email main__helper">
+            <label for="email">E-mail</label>
+          </div>
+          <input type="text" placeholder="E.j. hola@hola.com" id="email">
+        </field>
+        <field class="main__field">
+          <div class="container__password main__helper">
+            <label for="password">Password</label>
+          </div>
+          <input type="text" placeholder="Your password" id="password">
+        </field>
+        <button type="button" class="main__button">Claim yoyr free trial</button>
+        <div class="main__terms">
+          <p class="main__privacy">
+            By clicking the button, you are agreeing to our <span>Terms and Services</span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#"> David Rodriguez Badillo</a>.
+    </p>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
